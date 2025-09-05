@@ -27,5 +27,6 @@ jobs:
       if: always()
       with:
         name: bandit-CI-Pipeline-report
+        path: bandit-CI-Pipeline-report.json
 
       
